@@ -13,7 +13,7 @@ $ gem install cocoapods
 
 #### Podfile
 
-To integrate AFNetworking into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate AlphaNavigationBar into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
