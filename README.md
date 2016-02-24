@@ -1,2 +1,2 @@
 # AlphaNavigationBar
-根据VC中scrollview
+根据VC中scrollview's ContentOffset 渐隐渐现NavigationBar
