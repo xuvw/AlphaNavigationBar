@@ -10,9 +10,10 @@
 		AD9DED841C7DCD4300083BC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9DED831C7DCD4300083BC9 /* main.m */; };
 		AD9DED871C7DCD4300083BC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9DED861C7DCD4300083BC9 /* AppDelegate.m */; };
 		AD9DED8A1C7DCD4300083BC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9DED891C7DCD4300083BC9 /* ViewController.m */; };
-		AD9DED8D1C7DCD4300083BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9DED8B1C7DCD4300083BC9 /* Main.storyboard */; };
 		AD9DED8F1C7DCD4300083BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9DED8E1C7DCD4300083BC9 /* Assets.xcassets */; };
 		AD9DED921C7DCD4300083BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9DED901C7DCD4300083BC9 /* LaunchScreen.storyboard */; };
+		AD9DED9C1C7DCDA600083BC9 /* HKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9DED9B1C7DCDA600083BC9 /* HKNavigationController.m */; };
+		AD9DED9F1C7DCDCB00083BC9 /* onePixel.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9DED9E1C7DCDCB00083BC9 /* onePixel.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +23,12 @@
 		AD9DED861C7DCD4300083BC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AD9DED881C7DCD4300083BC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AD9DED891C7DCD4300083BC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AD9DED8C1C7DCD4300083BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD9DED8E1C7DCD4300083BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD9DED911C7DCD4300083BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD9DED931C7DCD4300083BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD9DED9A1C7DCDA600083BC9 /* HKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKNavigationController.h; sourceTree = "<group>"; };
+		AD9DED9B1C7DCDA600083BC9 /* HKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKNavigationController.m; sourceTree = "<group>"; };
+		AD9DED9E1C7DCDCB00083BC9 /* onePixel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onePixel.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		AD9DED761C7DCD4300083BC9 = {
 			isa = PBXGroup;
 			children = (
+				AD9DED991C7DCD6A00083BC9 /* AlphaNavigationBar */,
 				AD9DED811C7DCD4300083BC9 /* AlphaNavigationBarDemo */,
 				AD9DED801C7DCD4300083BC9 /* Products */,
 			);
@@ -62,7 +66,6 @@
 				AD9DED861C7DCD4300083BC9 /* AppDelegate.m */,
 				AD9DED881C7DCD4300083BC9 /* ViewController.h */,
 				AD9DED891C7DCD4300083BC9 /* ViewController.m */,
-				AD9DED8B1C7DCD4300083BC9 /* Main.storyboard */,
 				AD9DED8E1C7DCD4300083BC9 /* Assets.xcassets */,
 				AD9DED901C7DCD4300083BC9 /* LaunchScreen.storyboard */,
 				AD9DED931C7DCD4300083BC9 /* Info.plist */,
@@ -77,6 +80,24 @@
 				AD9DED831C7DCD4300083BC9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD9DED991C7DCD6A00083BC9 /* AlphaNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DED9D1C7DCDBA00083BC9 /* Resources */,
+				AD9DED9A1C7DCDA600083BC9 /* HKNavigationController.h */,
+				AD9DED9B1C7DCDA600083BC9 /* HKNavigationController.m */,
+			);
+			path = AlphaNavigationBar;
+			sourceTree = "<group>";
+		};
+		AD9DED9D1C7DCDBA00083BC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DED9E1C7DCDCB00083BC9 /* onePixel.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +159,7 @@
 			files = (
 				AD9DED921C7DCD4300083BC9 /* LaunchScreen.storyboard in Resources */,
 				AD9DED8F1C7DCD4300083BC9 /* Assets.xcassets in Resources */,
-				AD9DED8D1C7DCD4300083BC9 /* Main.storyboard in Resources */,
+				AD9DED9F1C7DCDCB00083BC9 /* onePixel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +172,7 @@
 			files = (
 				AD9DED8A1C7DCD4300083BC9 /* ViewController.m in Sources */,
 				AD9DED871C7DCD4300083BC9 /* AppDelegate.m in Sources */,
+				AD9DED9C1C7DCDA600083BC9 /* HKNavigationController.m in Sources */,
 				AD9DED841C7DCD4300083BC9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,14 +180,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AD9DED8B1C7DCD4300083BC9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD9DED8C1C7DCD4300083BC9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AD9DED901C7DCD4300083BC9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -262,6 +276,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlphaNavigationBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhk.ios.AlphaNavigationBarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlphaNavigationBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhk.ios.AlphaNavigationBarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
